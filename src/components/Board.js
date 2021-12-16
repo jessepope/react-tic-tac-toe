@@ -33,7 +33,8 @@ Board.propTypes = {
       })
     )
   ),
-  onClickCallback: PropTypes.func.isRequired,
+  onClickCallback: PropTypes.func,
+  // removed requirement if onClickCallback is condtional logic for board see line 128
 };
 
 export default Board;
