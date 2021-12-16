@@ -21,7 +21,7 @@ const generateSquareComponents = (squares, onClickCallback) => {
 const Board = ({ squares, onClickCallback }) => {
   const squareList = generateSquareComponents(squares, onClickCallback);
   console.log(squareList);
-  return <div className='grid'>{squareList}</div>;
+  return <div className="grid">{squareList}</div>;
 };
 
 Board.propTypes = {
@@ -33,7 +33,7 @@ Board.propTypes = {
       })
     )
   ),
-  onClickCallback: PropTypes.func,
+  onClickCallback: PropTypes.func.isRequired,
   // removed requirement if onClickCallback is condtional logic for board see line 128
 };
 

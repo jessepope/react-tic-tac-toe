@@ -93,7 +93,7 @@ const App = () => {
     setSquares((squares) => {
       let newBoard = squares.map((square) => {
         for (let property of square) {
-          if (property.id === id) {
+          if (property.id === id && property.value === '') {
             if (currentPlayer === PLAYER_1) {
               property.value = PLAYER_1;
             } else if (currentPlayer === PLAYER_2) {
