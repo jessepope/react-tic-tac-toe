@@ -119,7 +119,7 @@ const App = () => {
   let header;
   let boardCallback;
   if (winner != null) {
-    header = <h2>The winner is {winner}</h2>;
+    header = <h2>Winner is {winner}</h2>;
   } else {
     header = <h2>The Current Player is {currentPlayer}</h2>;
     boardCallback = onClickCallback;
