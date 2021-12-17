@@ -118,7 +118,14 @@ const App = () => {
 
   let header;
   let boardCallback;
+  // logic to display 'Player 1' instead of x, disabled for tests
+  // let finalWinner;
   if (winner != null) {
+    // if (winner === PLAYER_1) {
+    //   finalWinner = 'Player 1';
+    // } else {
+    //   finalWinner = 'Player 2';
+    // }
     header = <h2>Winner is {winner}</h2>;
   } else {
     header = <h2>The Current Player is {currentPlayer}</h2>;
