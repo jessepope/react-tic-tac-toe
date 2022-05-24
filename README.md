@@ -39,97 +39,6 @@ We can read more about the rules of Tic-Tac-Toe [in this rules reference](https:
 
 [A demo of our project goal is available online](https://adagold.github.io/react-tic-tac-toe/)!
 
-## How to Complete and Submit
-
-Go through the waves one-by-one and build the features of this API.
-
-At submission time, no matter where you are, submit the project via Learn.
-
-## One-Time Project Setup
-
-Follow these directions once at the beginning of your project:
-
-1. Fork the project repo to your own GitHub account
-
-2. Navigate to your projects folder named `projects`
-
-```bash
-$ cd ~/Developer/projects
-```
-
-3. Clone the project into your `projects` folder. This command makes a new folder called `react-tic-tac-toe`, and then puts the project into this new folder:
-
-```bash
-$ git clone ...
-```
-
-Use `ls` to confirm there's a new project folder
-
-4. Move your location into this project folder
-
-```bash
-$ cd react-tic-tac-toe
-```
-
-5. Install the dependencies that are already determined and defined for us.
-
-```bash
-$ yarn install
-```
-
-We can run `yarn install` multiple times safely, but we only need to do this once in the beginning.
-
-The file `package.json` contains details about our project, the scripts available, and the dependencies needed. We can inspect this file when we are curious about the details of our dependencies.
-
-6. Follow the directions in the "Getting Started" section.
-
-7. Follow the directions in the "Project Requirements" section.
-
-## Project Development Workflow
-
-1. To run the server, use this command:
-
-```bash
-$ yarn start
-```
-
-Then visit `localhost:3000` in the browser.
-
-2. Follow the project requirements below.
-
-3. After finishing each feature, capture your work in a git commit with a git message that describes what was implemented or changed.
-
-## Getting Started
-
-### Provided Components
-
-The project includes the following components with partial implementations. Before beginning the project, read through the contents of these files once.
-
-Component | Responsibility
---- | ---
-`App` | Container component. Responsible for holding data about the game state (X's and O's marked and their locations), player information, determining the winner, and rendering the board.
-`Board` | Presentational component. Responsible for rendering a 3x3 grid of squares appropriately.
-`Square` | Presentational component. Responsible for rendering an "X," "O," or nothing (empty string). When it's clicked, it should update the game's state.
-
-### Provided CSS Files
-
-Each of the CSS files contains classes that are relevant to the appropriate component. These are the styles used in [the project demo](https://adagold.github.io/react-tic-tac-toe/). It's not required to use these classes, and you are allowed to modify them or add styles.
-
-- `components/App.css`
-- `src/components/Board.css`
-- `src/components/Square.css`
-
-### Provided Test Files
-
-This project utilizes [the Jest library to test React apps](https://jestjs.io/docs/tutorial-react).
-
-Each project wave describes how to use these test files.
-
-The included files are the following:
-
-- `src/App.test.js`
-- `src/components/Board.test.js`
-- `src/components/Square.test.js`
 
 ## Project Requirements
 
@@ -219,6 +128,3 @@ To accomplish this:
 
 Follow the [testing directions in this project doc](./ada-project-docs/testing-requirements.md) to read more.
 
-## Optional Enhancements
-
-Should a project be completed before submission, and there is a desire for more practice, check out our [list of optional enhancements](./ada-project-docs/optional-enhancements.md)!
